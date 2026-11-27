@@ -1,0 +1,38 @@
+# Complementos
+
+
+Para un lenguaje L con un alfabeto $\Sigma$, denotamos por $\overline{L}$ el complemento de $L$, el
+lenguaje $\Sigma^* - L$
+
+## Complemento de una Clase de Complejidad $co-C$
+Sea C una clase de complejidad, definimos el complemento de C como:
+$$co-C = \{L | \overline{L} \in C\}$$
+
+En pocas palabras, un problema de decisión $L$ pertenece a co-C si y solo si su problema complementario $\overline{L}$ pertenece a la clase $C$.
+
+### Co-NP
+La clase co-NP es el complemento de la clase NP, es decir:
+$$co-NP = \{L | \overline{L} \in NP\}$$
+
+
+### Co-P
+La clase co-P es el complemento de la clase P, es decir:
+$$co-P = \{L | \overline{L} \in P\}$$   
+
+## Co-NP
+Un problema está en Co-NP si, cuando la respuesta es No, existe una prueba que se puede verificar en tiempo polinomial.
+
+## Definición Alternativa
+Sea L un lenguaje sobre $Σ∗$. Decimos que $L \in coNP$ si existe un polinomio $p$ y una máquina de Turing determinista tal que para toda $x \in \Sigma^*$ se tiene que $x \in L \iff \forall u \in \Sigma^{p(|x|)} M(x, u) = 1$
+
+### NP vs Co-NP
+- NP: Si la respuesta es "sí", existe una prueba rápida de verificar.
+- Co-NP: Si la respuesta es "no", existe una prueba rápida de verificar.
+
+## Caracteristicas de Co-NP
+### Complemento de un lenguaje en NP
+ Si un problema X está en NP, su versión con respuestas invertidas $\overline{X}$ está en co-NP
+
+## Ejemplos de problemas en co-NP
+- Problema de la tautología
+- Comprobar si un número es primo

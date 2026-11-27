@@ -1,5 +1,13 @@
-# Preface {.unnumbered}
+# Reporte de Material Extra para la clase de Complejidad Computacional  {.unnumbered}
 
-This is a Quarto book.
+La actividad consiste en realizar un material extra para un tema de nuestra elección, en micaso fue el tema de **Clases de Complejidad**. 
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+## Quarto
+Quarto es un sistema de publicación científica que permite crear documentos reproducibles mezclando texto plano en Markdown con código ejecutable. Puede ejcutar código en Python, R, Julia, etc. 
+
+## GitHub Pages
+GitHub Pages es un servicio de alojamiento web que permite publicar sitios web directamente desde un repositorio de GitHub, de esta forma podemos alojar el contenido de el material extra y que este sea accesible para cualquier persona.
+
+
+## Uso de IA
+Se uso la IA para mejorar la presentación de nuestra página en Quarto, arreglar errores y poder implementar los quizzes, los promts usados fueron: 

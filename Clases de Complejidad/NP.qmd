@@ -1,0 +1,59 @@
+# Clase NP
+
+## Definición
+NP es la clase de problemas para los cuales existe un algoritmo que verifica una solución candidata en tiempo polinomial $O(n^c)$ para alguna constante $c$.
+
+> NP= Nondeterministic Polynomial time
+
+## Definición Formal
+Usando *TIME*
+>TIME(T(n)) es la clase de problemas para los cuales existe un algoritmo (Ḿáquina de Turing) que resuelve ejemplares de tamaño $n$ en tiempo $O(T(n))$. 
+
+la clase NP se define como: $$NP = ∪_{c>0}NTIME(n^c)$$
+
+## Definición Alternativa
+$L$ está en $NP$ si existe un polinomio $p$ y una máquina de Turing $M$ de tiempo polinomial tal que $\forall x \in \{0, 1\}$, $$x \in L \iff \exists u \in \{0, 1\}^{p(|x|)} \text{ tal que }M(x, u) = 1$$.
+
+> $u$ es un certificado, un certificado es una prueba de que $x$ pertenece a $L$. $M$ es una máquina verificadora, que verifica si el certificado es correcto.
+
+>Ambas definiciones son equivalentes.
+
+## Caracteristicas de la Clase NP
+
+
+### Invariancia
+Es independiente del modelo no determinista elegido, siempre que sea polinomialmente equivalente a una MT de una cinta.
+
+
+### Verificación
+Si un problema está en NP, entonces es fácil de verificar. Esto significa que si se nos da una solución candidata para un problema en NP, podemos verificar rápidamente si esa solución es correcta o no.
+
+### Problemas
+Pueden ser problemas de decisión, de optimización o de conteo.
+
+## Ejemplos
+- Problema del viajante de comercio
+- Problema de la mochila
+- Problema de satisfacibilidad booleana (SAT)
+
+```quizdown
+# ¿El problema de coloración de grafos está en NP?
+- [x] Sí
+- [ ] No
+
+> Existe un algoritmo polinomial que verifica si una asignación de colores es válida.
+
+# ¿Cual es la idea central de un certificado en NP?
+- [ ] Un certificado es una solución candidata que puede ser verificada en tiempo polinomial
+- [x] Un certificado es una prueba que permite verificar si un ejemplar pertenece a un lenguaje en tiempo polinomial.
+- [ ] Un algoritmo en tiempo polinomial.
+
+> Comprueba de forma rápida
+
+# ¿Factorizar un número primo es un problema en NP?
+- [ ] Sí
+- [x] No
+
+> No hay un algoritmo polinomial conocido que factorice un número primo.
+```
+

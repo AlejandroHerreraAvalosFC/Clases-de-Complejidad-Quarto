@@ -4,9 +4,9 @@
     "href": "index.html",
     "title": "Clases de Complejidad",
     "section": "",
-    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.",
+    "text": "Reporte de Material Extra para la clase de Complejidad Computacional\nLa actividad consiste en realizar un material extra para un tema de nuestra elección, en micaso fue el tema de Clases de Complejidad.",
     "crumbs": [
-      "Preface"
+      "Reporte de Material Extra para la clase de Complejidad Computacional"
     ]
   },
   {
@@ -37,6 +37,286 @@
     "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. (USA) 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
     "crumbs": [
       "References"
+    ]
+  },
+  {
+    "objectID": "index.html#quarto",
+    "href": "index.html#quarto",
+    "title": "Clases de Complejidad",
+    "section": "Quarto",
+    "text": "Quarto\nQuarto es un sistema de publicación científica que permite crear documentos reproducibles mezclando texto plano en Markdown con código ejecutable. Puede ejcutar código en Python, R, Julia, etc.",
+    "crumbs": [
+      "Reporte de Material Extra para la clase de Complejidad Computacional"
+    ]
+  },
+  {
+    "objectID": "index.html#github-pages",
+    "href": "index.html#github-pages",
+    "title": "Clases de Complejidad",
+    "section": "GitHub Pages",
+    "text": "GitHub Pages\nGitHub Pages es un servicio de alojamiento web que permite publicar sitios web directamente desde un repositorio de GitHub, de esta forma podemos alojar el contenido de el material extra y que este sea accesible para cualquier persona.",
+    "crumbs": [
+      "Reporte de Material Extra para la clase de Complejidad Computacional"
+    ]
+  },
+  {
+    "objectID": "index.html#uso-de-ia",
+    "href": "index.html#uso-de-ia",
+    "title": "Clases de Complejidad",
+    "section": "Uso de IA",
+    "text": "Uso de IA\nSe uso la IA para mejorar la presentación de nuestra página en Quarto, arreglar errores y poder implementar los quizzes, los promts usados fueron:",
+    "crumbs": [
+      "Reporte de Material Extra para la clase de Complejidad Computacional"
+    ]
+  },
+  {
+    "objectID": "Clasificación de Problemas.html",
+    "href": "Clasificación de Problemas.html",
+    "title": "1  Clasificación De Problemas",
+    "section": "",
+    "text": "1.1 Problemas Indecidibles\nPodemos clasificar a los problemas de decisión en:\nLos problemas indecidibles son aquellos para los cuales no existe un algoritmo que pueda determinar la respuesta a todas las instancias del problema.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Clasificación De Problemas</span>"
+    ]
+  },
+  {
+    "objectID": "Clasificación de Problemas.html#problemas-decidibles",
+    "href": "Clasificación de Problemas.html#problemas-decidibles",
+    "title": "1  Clasificación De Problemas",
+    "section": "1.2 Problemas Decidibles",
+    "text": "1.2 Problemas Decidibles\nLos problemas decidibles son aquellos para los cuales existe un algoritmo que puede determinar la respuesta a todas las instancias del problema en un tiempo finito.\n\n1.2.1 Ejemplo de Problema Decidible\nUn ejemplo de un problema decidible es el problema de la búsqueda en un arreglo ordenado, un algoritmo que resuelve este problema es el de búsqueda binaria.\nLos problemas decidibles los podemos dividir en intratables y tratables:",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Clasificación De Problemas</span>"
+    ]
+  },
+  {
+    "objectID": "Clasificación de Problemas.html#problemas-indecidibles",
+    "href": "Clasificación de Problemas.html#problemas-indecidibles",
+    "title": "1  Clasificación De Problemas",
+    "section": "",
+    "text": "1.1.1 Ejemplo de Problema Indecidible\nUn ejemplo de un problema indecidible es el problema de la parada, que determina si un programa dado se detendrá o seguira ejecutándose de forma indefinida para alguna entrada específica.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Clasificación De Problemas</span>"
+    ]
+  },
+  {
+    "objectID": "Clasificación de Problemas.html#problemas-tratables",
+    "href": "Clasificación de Problemas.html#problemas-tratables",
+    "title": "1  Clasificación De Problemas",
+    "section": "1.3 Problemas Tratables",
+    "text": "1.3 Problemas Tratables\nLos problemas tratables son aquellos que pueden resolverse en un tiempo polinomial, es decir, el tiempo de ejecución del algoritmo es acotado por una función polinomial.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Clasificación De Problemas</span>"
+    ]
+  },
+  {
+    "objectID": "Clasificación de Problemas.html#problemas-intratables",
+    "href": "Clasificación de Problemas.html#problemas-intratables",
+    "title": "1  Clasificación De Problemas",
+    "section": "1.4 Problemas Intratables",
+    "text": "1.4 Problemas Intratables\nLos problemas intratables son aquellos que no pueden resolverse en un tiempo polinomial, es decir, el tiempo de ejecución del algoritmo crece más rápido que cualquier función polinomial.\n\n# ¿La complejidad del algoritmo de \n\n- [x] `quarto add`\n- [ ] `quarto install`\n- [ ] `quarto get`\n\n&gt; `quarto add` descarga y coloca la extensión en `_extensions`.\n# ¿Qué función instala una extensión en Quarto?\n\n- [x] `quarto add`\n- [ ] `quarto install`\n- [ ] `quarto get`\n\n&gt; `quarto add` descarga y coloca la extensión en `_extensions`.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Clasificación De Problemas</span>"
+    ]
+  },
+  {
+    "objectID": "quizz.html",
+    "href": "quizz.html",
+    "title": "Clases de Complejidad",
+    "section": "",
+    "text": "# ¿Qué función instala una extensión en Quarto?\n\n- [x] `quarto add`\n- [ ] `quarto install`\n- [ ] `quarto get`\n\n&gt; `quarto add` descarga y coloca la extensión en `_extensions`.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>quizz.html</span>"
+    ]
+  },
+  {
+    "objectID": "P.html",
+    "href": "P.html",
+    "title": "2  Clase P",
+    "section": "",
+    "text": "2.1 Definición\nP es la clase de problemas para los cuales existe un algoritmo que resuelve ejemplares de tamaño \\(n\\) en tiempo \\(O(n^c)\\) para alguna constante \\(c\\).",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Clase P</span>"
+    ]
+  },
+  {
+    "objectID": "P.html#cararacteristicas-de-la-clase-p",
+    "href": "P.html#cararacteristicas-de-la-clase-p",
+    "title": "2  Clase P",
+    "section": "2.2 Cararacteristicas de la Clase P",
+    "text": "2.2 Cararacteristicas de la Clase P\n\n2.2.1 Invariancia\nEs independiente del modelo determinista elegido, siempre que sea polinomialmente equivalente a una MT de una cinta",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Clase P</span>"
+    ]
+  },
+  {
+    "objectID": "P.html#caracteristicas-de-la-clase-p",
+    "href": "P.html#caracteristicas-de-la-clase-p",
+    "title": "2  Clase P",
+    "section": "2.3 Caracteristicas de la Clase P",
+    "text": "2.3 Caracteristicas de la Clase P\n\n2.3.1 Invariancia\nEs independiente del modelo determinista elegido, siempre que sea polinomialmente equivalente a una MT de una cinta.\n\n\n2.3.2 Tratablidad\n\\(P\\) corresponde a la clase de problemas que solucionables de manera realista en una computadora\n\n\n2.3.3 Verificación\nSi un problema está en P, entonces es fácil de verificar. Esto significa que si se nos da una solución candidata para un problema en P, podemos verificar rápidamente si esa solución es correcta o no.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Clase P</span>"
+    ]
+  },
+  {
+    "objectID": "P.html#ejemplos",
+    "href": "P.html#ejemplos",
+    "title": "2  Clase P",
+    "section": "2.4 Ejemplos",
+    "text": "2.4 Ejemplos\n\nRecorrer un grafo\nBuscar un elemento\nOrdenar una lista de elementos\n\n\n# ¿Encontrar el camino más corto en un grafo es un problema en P?\n\n- [x] Sí\n- [ ] No\n\n&gt; El algoritmo más conocido es Dijkstra el cual su complejidad es ...\n\n# ¿Un algoritmo cuya complejidad es $O(n^n)$ esta dentro de P?\n\n- [ ] Sí\n- [x] No\n\n&gt; Un algoritmo cuya complejidad no es polinomial no está dentro de P.\n\n# ¿Resolver un sudoku es un problema en P?\n\n- [ ] Sí\n- [x] No\n\n&gt; Verficar si un sudoku resuelto es correcto es un problema en P.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Clase P</span>"
+    ]
+  },
+  {
+    "objectID": "P.html#definición-formal",
+    "href": "P.html#definición-formal",
+    "title": "2  Clase P",
+    "section": "2.2 Definición Formal",
+    "text": "2.2 Definición Formal\nUsando TIME\n\nTIME(T(n)) es la clase de problemas para los cuales existe un algoritmo (Ḿáquina de Turing) que resuelve ejemplares de tamaño \\(n\\) en tiempo \\(O(T(n))\\).\n\nla clase P se define como: \\[P = ∪_{c&gt;0}TIME(n^c)\\]",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Clase P</span>"
+    ]
+  },
+  {
+    "objectID": "Resumen.html",
+    "href": "Resumen.html",
+    "title": "5  Resumen de Clases de Complejidad",
+    "section": "",
+    "text": "# ¿Cual es correcto $P\\subseteq NP$ o $NP\\subseteq P$?\n- [x] $P\\subseteq NP$\n- [ ] $NP\\subseteq P$\n&gt; Checa las definiciones de P y NP.\n\n# ¿P=NP?\n- [ ] Sí\n- [ ] No\n- [x] No se sabe\n&gt; Puede ser, no lo se :/",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Resumen de Clases de Complejidad</span>"
+    ]
+  },
+  {
+    "objectID": "NP.html",
+    "href": "NP.html",
+    "title": "3  Clase NP",
+    "section": "",
+    "text": "3.1 Definición\nNP es la clase de problemas para los cuales existe un algoritmo que verifica una solución candidata en tiempo polinomial \\(O(n^c)\\) para alguna constante \\(c\\).",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Clase NP</span>"
+    ]
+  },
+  {
+    "objectID": "NP.html#definición-formal",
+    "href": "NP.html#definición-formal",
+    "title": "3  Clase NP",
+    "section": "3.2 Definición Formal",
+    "text": "3.2 Definición Formal\nUsando TIME &gt;TIME(T(n)) es la clase de problemas para los cuales existe un algoritmo (Ḿáquina de Turing) que resuelve ejemplares de tamaño \\(n\\) en tiempo \\(O(T(n))\\).\nla clase NP se define como: \\[NP = ∪_{c&gt;0}NTIME(n^c)\\]",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Clase NP</span>"
+    ]
+  },
+  {
+    "objectID": "NP.html#definición",
+    "href": "NP.html#definición",
+    "title": "3  Clase NP",
+    "section": "",
+    "text": "NP= Nondeterministic Polynomial time",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Clase NP</span>"
+    ]
+  },
+  {
+    "objectID": "NP.html#definición-alternativa",
+    "href": "NP.html#definición-alternativa",
+    "title": "3  Clase NP",
+    "section": "3.3 Definición Alternativa",
+    "text": "3.3 Definición Alternativa\n\\(L\\) está en \\(NP\\) si existe un polinomio \\(p\\) y una máquina de Turing \\(M\\) de tiempo polinomial tal que \\(\\forall x \\in \\{0, 1\\}\\), \\[x \\in L \\iff \\exists u \\in \\{0, 1\\}^{p(|x|)} \\text{ tal que }M(x, u) = 1\\].\n\n\\(u\\) es un certificado, un certificado es una prueba de que \\(x\\) pertenece a \\(L\\). \\(M\\) es una máquina verificadora, que verifica si el certificado es correcto.\n\n\nAmbas definiciones son equivalentes.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Clase NP</span>"
+    ]
+  },
+  {
+    "objectID": "NP.html#caracteristicas-de-la-clase-np",
+    "href": "NP.html#caracteristicas-de-la-clase-np",
+    "title": "3  Clase NP",
+    "section": "3.4 Caracteristicas de la Clase NP",
+    "text": "3.4 Caracteristicas de la Clase NP\n\n3.4.1 Invariancia\nEs independiente del modelo no determinista elegido, siempre que sea polinomialmente equivalente a una MT de una cinta.\n\n\n3.4.2 Verificación\nSi un problema está en NP, entonces es fácil de verificar. Esto significa que si se nos da una solución candidata para un problema en NP, podemos verificar rápidamente si esa solución es correcta o no.\n\n\n3.4.3 Problemas\nPueden ser problemas de decisión, de optimización o de conteo.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Clase NP</span>"
+    ]
+  },
+  {
+    "objectID": "NP.html#ejemplos",
+    "href": "NP.html#ejemplos",
+    "title": "3  Clase NP",
+    "section": "3.5 Ejemplos",
+    "text": "3.5 Ejemplos\n\nProblema del viajante de comercio\nProblema de la mochila\nProblema de satisfacibilidad booleana (SAT)\n\n\n# ¿El problema de coloración de grafos está en NP?\n- [x] Sí\n- [ ] No\n\n&gt; Existe un algoritmo polinomial que verifica si una asignación de colores es válida.\n\n# ¿Cual es la idea central de un certificado en NP?\n- [ ] Un certificado es una solución candidata que puede ser verificada en tiempo polinomial\n- [x] Un certificado es una prueba que permite verificar si un ejemplar pertenece a un lenguaje en tiempo polinomial.\n- [ ] Un algoritmo en tiempo polinomial.\n\n&gt; Comprueba de forma rápida\n\n# ¿Factorizar un número primo es un problema en NP?\n- [ ] Sí\n- [x] No\n\n&gt; No hay un algoritmo polinomial conocido que factorice un número primo.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Clase NP</span>"
+    ]
+  },
+  {
+    "objectID": "Complementos.html",
+    "href": "Complementos.html",
+    "title": "4  Complementos",
+    "section": "",
+    "text": "4.1 Complemento de una Clase de Complejidad \\(co-C\\)\nPara un lenguaje L con un alfabeto \\(\\Sigma\\), denotamos por \\(\\overline{L}\\) el complemento de \\(L\\), el lenguaje \\(\\Sigma^* - L\\)\nSea C una clase de complejidad, definimos el complemento de C como: \\[co-C = \\{L | \\overline{L} \\in C\\}\\]\nEn pocas palabras, un problema de decisión \\(L\\) pertenece a co-C si y solo si su problema complementario \\(\\overline{L}\\) pertenece a la clase \\(C\\).",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Complementos</span>"
+    ]
+  },
+  {
+    "objectID": "Complementos.html#complemento-de-una-clase-de-complejidad-co-c",
+    "href": "Complementos.html#complemento-de-una-clase-de-complejidad-co-c",
+    "title": "4  Complementos",
+    "section": "",
+    "text": "4.1.1 Co-NP\nLa clase co-NP es el complemento de la clase NP, es decir: \\[co-NP = \\{L | \\overline{L} \\in NP\\}\\]\n\n\n4.1.2 Co-P\nLa clase co-P es el complemento de la clase P, es decir: \\[co-P = \\{L | \\overline{L} \\in P\\}\\]",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Complementos</span>"
+    ]
+  },
+  {
+    "objectID": "Complementos.html#co-np-1",
+    "href": "Complementos.html#co-np-1",
+    "title": "4  Complementos",
+    "section": "4.2 Co-NP",
+    "text": "4.2 Co-NP\nUn problema está en Co-NP si, cuando la respuesta es No, existe una prueba que se puede verificar en tiempo polinomial.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Complementos</span>"
+    ]
+  },
+  {
+    "objectID": "Complementos.html#caracterización-de-co-np",
+    "href": "Complementos.html#caracterización-de-co-np",
+    "title": "4  Complementos",
+    "section": "4.3 Caracterización de Co-NP",
+    "text": "4.3 Caracterización de Co-NP\n\n4.3.1 Complemento de un lenguaje en NP\nSi un problema X está en NP, su versión con respuestas invertidas \\(\\overline{X}\\) está en co-NP",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Complementos</span>"
+    ]
+  },
+  {
+    "objectID": "Complementos.html#caracteristicas-de-co-np",
+    "href": "Complementos.html#caracteristicas-de-co-np",
+    "title": "4  Complementos",
+    "section": "4.4 Caracteristicas de Co-NP",
+    "text": "4.4 Caracteristicas de Co-NP\n\n4.4.1 Complemento de un lenguaje en NP\nSi un problema X está en NP, su versión con respuestas invertidas \\(\\overline{X}\\) está en co-NP",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Complementos</span>"
+    ]
+  },
+  {
+    "objectID": "Complementos.html#ejemplos-de-problemas-en-co-np",
+    "href": "Complementos.html#ejemplos-de-problemas-en-co-np",
+    "title": "4  Complementos",
+    "section": "4.5 Ejemplos de problemas en co-NP",
+    "text": "4.5 Ejemplos de problemas en co-NP\n\nProblema de la tautología\nComprobar si un número es primo",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Complementos</span>"
+    ]
+  },
+  {
+    "objectID": "Complementos.html#definición-alternativa",
+    "href": "Complementos.html#definición-alternativa",
+    "title": "4  Complementos",
+    "section": "4.3 Definición Alternativa",
+    "text": "4.3 Definición Alternativa\nSea L un lenguaje sobre \\(Σ∗\\). Decimos que \\(L \\in coNP\\) si existe un polinomio \\(p\\) y una máquina de Turing determinista tal que para toda \\(x \\in \\Sigma^*\\) se tiene que \\(x \\in L \\iff \\forall u \\in \\Sigma^{p(|x|)} M(x, u) = 1\\)\n\n4.3.1 NP vs Co-NP\n\nNP: Si la respuesta es “sí”, existe una prueba rápida de verificar.\nCo-NP: Si la respuesta es “no”, existe una prueba rápida de verificar.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Complementos</span>"
     ]
   }
 ]

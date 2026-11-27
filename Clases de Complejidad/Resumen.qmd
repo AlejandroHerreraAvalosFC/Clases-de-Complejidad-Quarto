@@ -1,0 +1,13 @@
+# Resumen de Clases de Complejidad
+```quizdown
+# ¿Cual es correcto $P\subseteq NP$ o $NP\subseteq P$?
+- [x] $P\subseteq NP$
+- [ ] $NP\subseteq P$
+> Checa las definiciones de P y NP.
+
+# ¿P=NP?
+- [ ] Sí
+- [ ] No
+- [x] No se sabe
+> Puede ser, no lo se :/
+```

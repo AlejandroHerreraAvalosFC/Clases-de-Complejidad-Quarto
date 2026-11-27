@@ -1,0 +1,56 @@
+# Clase P
+
+## Definición
+P es la clase de problemas para los cuales existe un algoritmo que resuelve ejemplares de tamaño $n$ en tiempo $O(n^c)$ para alguna constante $c$.
+
+## Definición Formal
+Usando *TIME*
+
+
+>TIME(T(n)) es la clase de problemas para los cuales existe un algoritmo (Ḿáquina de Turing) que resuelve ejemplares de tamaño $n$ en tiempo $O(T(n))$.
+
+
+la clase P se define como: $$P = ∪_{c>0}TIME(n^c)$$
+
+
+## Caracteristicas de la Clase P
+
+### Invariancia
+Es independiente del modelo determinista elegido, siempre que sea polinomialmente equivalente a una MT de una cinta.
+
+### Tratablidad
+$P$ corresponde a la clase de problemas que solucionables de manera realista en una
+computadora
+
+### Verificación
+Si un problema está en P, entonces es fácil de verificar. Esto significa que si se nos da una solución candidata para un problema en P, podemos verificar rápidamente si esa solución es correcta o no.
+
+## Ejemplos
+- Recorrer un grafo
+- Buscar un elemento
+- Ordenar una lista de elementos
+
+```quizdown
+# ¿Encontrar el camino más corto en un grafo es un problema en P?
+
+- [x] Sí
+- [ ] No
+
+> El algoritmo más conocido es Dijkstra el cual su complejidad es ...
+
+# ¿Un algoritmo cuya complejidad es $O(n^n)$ esta dentro de P?
+
+- [ ] Sí
+- [x] No
+
+> Un algoritmo cuya complejidad no es polinomial no está dentro de P.
+
+# ¿Resolver un sudoku es un problema en P?
+
+- [ ] Sí
+- [x] No
+
+> Verficar si un sudoku resuelto es correcto es un problema en P.
+
+
+```

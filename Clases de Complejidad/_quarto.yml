@@ -7,9 +7,14 @@ book:
   date: "11/25/2026"
   chapters:
     - index.qmd
-    - intro.qmd
-    - summary.qmd
-    - references.qmd
+    - Clasificación de Problemas.qmd
+    - P.qmd
+    - NP.qmd
+    - Complementos.qmd
+    - Resumen.qmd
+
+filters:
+  - quizdown
 
 bibliography: references.bib
 
@@ -20,6 +25,7 @@ format:
       - brand
   pdf:
     documentclass: scrreprt
+  
 
 
 

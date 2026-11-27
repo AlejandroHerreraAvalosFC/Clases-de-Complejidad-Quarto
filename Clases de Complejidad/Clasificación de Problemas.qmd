@@ -1,0 +1,45 @@
+# Clasificación De Problemas  
+
+Podemos clasificar a los problemas de decisión en:
+
+## Problemas Indecidibles
+Los problemas indecidibles son aquellos para los cuales no existe un algoritmo que pueda determinar la respuesta a todas las instancias del problema. 
+
+
+### Ejemplo de Problema Indecidible
+Un ejemplo de un problema indecidible es el **problema de la parada**, que determina si un programa dado se detendrá o seguira ejecutándose de forma indefinida para alguna entrada específica.
+
+
+## Problemas Decidibles
+Los problemas decidibles son aquellos para los cuales existe un algoritmo que puede determinar la respuesta a todas las instancias del problema en un tiempo finito. 
+
+
+### Ejemplo de Problema Decidible
+Un ejemplo de un problema decidible es el **problema de la búsqueda en un arreglo ordenado**, un algoritmo que resuelve este problema es el de búsqueda binaria.
+
+
+Los problemas decidibles los podemos dividir en *intratables* y *tratables*:
+
+
+## Problemas Tratables
+Los problemas tratables son aquellos que pueden resolverse en un tiempo polinomial, es decir, el tiempo de ejecución del algoritmo es acotado por una función polinomial.
+
+## Problemas Intratables
+Los problemas intratables son aquellos que no pueden resolverse en un tiempo polinomial, es decir, el tiempo de ejecución del algoritmo crece más rápido que cualquier función polinomial.
+
+```quizdown
+# ¿La complejidad del algoritmo de 
+
+- [x] `quarto add`
+- [ ] `quarto install`
+- [ ] `quarto get`
+
+> `quarto add` descarga y coloca la extensión en `_extensions`.
+# ¿Qué función instala una extensión en Quarto?
+
+- [x] `quarto add`
+- [ ] `quarto install`
+- [ ] `quarto get`
+
+> `quarto add` descarga y coloca la extensión en `_extensions`.
+```
